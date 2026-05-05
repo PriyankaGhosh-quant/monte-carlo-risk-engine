@@ -1,7 +1,7 @@
 # Monte Carlo Risk Engine
 ### Cross-Asset Simulation & Risk Analysis · GLD · MSFT · COIN
 
-**Live Demo → [monte-carlo-risk-engine.streamlit.app](https://monte-carlo-risk-engine-noggng8f9f7rz72b4vqxhb.streamlit.app/)** *(deploy and replace this link)*
+**Live Demo → [monte-carlo-risk-engine.streamlit.app](https://monte-carlo-risk-engine-noggng8f9f7rz72b4vqxhb.streamlit.app/)
 
 A quantitative finance project applying Monte Carlo simulation via Geometric Brownian Motion to model future price distributions across three fundamentally different asset classes. The project computes institutional-grade risk metrics — Value at Risk, Conditional Value at Risk, and European call option pricing — and compares how model assumptions hold differently depending on asset volatility.
 
