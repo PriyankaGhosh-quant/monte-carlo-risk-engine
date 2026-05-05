@@ -32,6 +32,7 @@ section[data-testid="stSidebar"] {
 }
 
 .page-title {
+    padding-top: 2rem;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
@@ -254,7 +255,7 @@ def setup_fig():
 def style_ax(ax, fig_bg, ax_bg):
     ax.set_facecolor(ax_bg)
     for spine in ax.spines.values():
-        spine.set_edgecolor("rgba(83,74,183,0.25)")
+        spine.set_edgecolor("#2a2550")
     ax.tick_params(colors="#6b6494", labelsize=8)
     ax.xaxis.label.set_color("#6b6494")
     ax.yaxis.label.set_color("#6b6494")
